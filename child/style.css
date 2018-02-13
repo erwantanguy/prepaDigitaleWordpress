@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Mon thème enfant
+ Description:  Superbe Child Theme
+ Author:       Votre Nom
+ Template:     bst-master
+ Version:      1.0.0
+*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+body.home, body.blog{
+    background: #f3e2c7;
+background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+background: -webkit-linear-gradient(top, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 );
+}
+
+/*** produit **/
+.single-produit span.alert{
+    display: inline-block;
+    font-size: 2em;
+}
+.single-produit span.alert span.glyphicon{
+    font-size: .6em;
+}
+.single-produit main nav a.btn{
+    margin-bottom:15px;
+    margin-right: 5px;
+}
+
+.page-template-produits td:first-child, .tax-marque td:first-child{
+    width: 170px;
+}
+.page-template-produits td:nth-child(3), .tax-marque td:nth-child(3){
+    width: 600px;
+}
+.page-template-produits td:nth-child(4), .tax-marque td:nth-child(4){
+    width: 100px;
+}
